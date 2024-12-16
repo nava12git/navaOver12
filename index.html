@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="estiloINIS.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Registro</h2>
+       
+        <form action="conexion1.php" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" id="contraseña" name="contraseña" required>
+            </div>
+            <div class="form-group">
+                <label for="">Roll</label>
+                <select id="roll" name="roll" required>
+                    <option value="">Seleccione...</option>
+                    <option value="Usuario">Usuario</option>
+                    <option value="Admin">Admin</option>
+                </select>
+                    <a href="../over12NM/over12/usuario/html/clientes.html"><button type="submit">Registrarse</button></a>
+            </div>
+            
+        </form>
+    </div>
+
+</body>
+</html>

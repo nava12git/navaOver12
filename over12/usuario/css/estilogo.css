@@ -1,0 +1,138 @@
+*{
+    background-color: #000000;
+    color: white;
+}
+
+h2{
+    color: #b88e04;
+}
+
+p{
+    color: #b88e04;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px 20px;
+    color: white;
+}
+.logo img {
+    width: 60px; 
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-container input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+.search-container button {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px 0;
+    background-color: #b88e04;
+    color: white;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background-color: #004494;
+}
+
+.menu {
+    border: 2px solid rgb(255, 255, 255); padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    background-color: #333; 
+}
+
+.menu li {
+    margin: 0; 
+}
+
+.menu a {
+    display: block; 
+    padding: 10px 15px; 
+    color: white; 
+    text-decoration: none; 
+}
+
+.menu a:hover {
+    background-color: #575757; }
+
+
+
+
+    .contenedor {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .contenedor {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .tarjeta {
+        background-color: #b88e04;
+        border: 1px solid #b88e04;
+        border-radius: 8px;
+        width: 300px;
+        margin: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .tarjeta img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenido {
+        padding: 15px;
+    }
+
+    .boton {
+        background-color:#b88e04;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+
+    .boton:hover {
+        background-color: #b88e04;
+    }
